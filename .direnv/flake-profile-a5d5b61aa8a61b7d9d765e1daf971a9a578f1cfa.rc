@@ -7,10 +7,10 @@ AR='ar'
 export AR
 AS='as'
 export AS
-BASH='/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/bash'
+BASH='/nix/store/rlq03x4cwf8zn73hxaxnx0zn5q9kifls-bash-5.3p3/bin/bash'
 CC='gcc'
 export CC
-CONFIG_SHELL='/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/bash'
+CONFIG_SHELL='/nix/store/rlq03x4cwf8zn73hxaxnx0zn5q9kifls-bash-5.3p3/bin/bash'
 export CONFIG_SHELL
 CXX='g++'
 export CXX
@@ -23,7 +23,7 @@ export DOTNET_SKIP_FIRST_TIME_EXPERIENCE
 DOTNET_SKIP_WORKLOAD_INTEGRITY_CHECK='1'
 export DOTNET_SKIP_WORKLOAD_INTEGRITY_CHECK
 HOSTTYPE='x86_64'
-HOST_PATH='/nix/store/d75200gb22v7p0703h5jrkgg8bqydk5q-coreutils-9.8/bin:/nix/store/wd99g2j010fdkry0ws1bhxzm52w82ssx-findutils-4.10.0/bin:/nix/store/20zvyjvxq9x2mkp7rbnvrwjjzq2n76hh-diffutils-3.12/bin:/nix/store/k06ssckzrzn9jjvvs4n62m6567zmbx6x-gnused-4.9/bin:/nix/store/qfmq7p42ak5yn389qvx7zpxkan5i4xiy-gnugrep-3.12/bin:/nix/store/nmxm04dhkaqg1q6hai70n9zmzb0q49a5-gawk-5.3.2/bin:/nix/store/k1lcfin159706lihwx5hhvl80dbij4jw-gnutar-1.35/bin:/nix/store/0hv4z5s3r1h4lmvn0427mlxjxgvg34nr-gzip-1.14/bin:/nix/store/p61ba9fdgx3358bpp18hv4rslf6n5bq6-bzip2-1.0.8-bin/bin:/nix/store/mkm3my2067305hdh7rzmi10npwr7y17f-gnumake-4.4.1/bin:/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin:/nix/store/clrf4mjwr8xcfpvway6w34wzvqc1hry4-patch-2.8/bin:/nix/store/j1zc5jh0vi9sbxj09ldj4xklgm6kpf8n-xz-5.8.1-bin/bin:/nix/store/s2k48fw3y698j4kcvmw0520m06ihv2z4-file-5.45/bin'
+HOST_PATH='/nix/store/imad8dvhp77h0pjbckp6wvmnyhp8dpgg-coreutils-9.8/bin:/nix/store/av4xw9f56xlx5pgv862wabfif6m1yc0a-findutils-4.10.0/bin:/nix/store/20axvl7mgj15m23jgmnq97hx37fgz7bk-diffutils-3.12/bin:/nix/store/drc7kang929jaza6cy9zdx10s4gw1z5p-gnused-4.9/bin:/nix/store/x3zjxxz8m4ki88axp0gn8q8m6bldybba-gnugrep-3.12/bin:/nix/store/y2wdhdcrffp9hnkzk06d178hq3g98jay-gawk-5.3.2/bin:/nix/store/yi3c5karhx764ham5rfwk7iynr8mjf6q-gnutar-1.35/bin:/nix/store/d471xb7sfbah076s8rx02i68zpxc2r5n-gzip-1.14/bin:/nix/store/qm9rxn2sc1vrz91i443rr6f0vxm0zd82-bzip2-1.0.8-bin/bin:/nix/store/3fmzbq9y4m9nk235il7scmvwn8j9zy3p-gnumake-4.4.1/bin:/nix/store/rlq03x4cwf8zn73hxaxnx0zn5q9kifls-bash-5.3p3/bin:/nix/store/qrwznp1ikdf0qw05wia2haiwi32ik5n0-patch-2.8/bin:/nix/store/v0rfdwhg6w6i0yb6dbry4srk6pnj3xp0-xz-5.8.1-bin/bin:/nix/store/paj6a1lpzp57hz1djm5bs86b7ci221r0-file-5.45/bin'
 export HOST_PATH
 IFS=' 	
 '
@@ -37,23 +37,23 @@ MSBUILDALWAYSOVERWRITEREADONLYFILES='1'
 export MSBUILDALWAYSOVERWRITEREADONLYFILES
 MSBUILDTERMINALLOGGER='false'
 export MSBUILDTERMINALLOGGER
-NIX_BINTOOLS='/nix/store/dwiyp91lmxq864plaas14jm14m87sg3f-binutils-wrapper-2.44'
+NIX_BINTOOLS='/nix/store/xwydcyvlsa3cvssk0y5llgdhlhjvmqdm-binutils-wrapper-2.44'
 export NIX_BINTOOLS
 NIX_BINTOOLS_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu='1'
 export NIX_BINTOOLS_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu
 NIX_BUILD_CORES='16'
 export NIX_BUILD_CORES
-NIX_CC='/nix/store/r9wbjib6xxjkyb9yvjvrkl4sq61i2lyn-gcc-wrapper-15.2.0'
+NIX_CC='/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0'
 export NIX_CC
 NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu='1'
 export NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu
-NIX_CFLAGS_COMPILE=' -frandom-seed=8avb08pi7q'
+NIX_CFLAGS_COMPILE=' -frandom-seed=0kzdl8vz99'
 export NIX_CFLAGS_COMPILE
 NIX_ENFORCE_NO_NATIVE='1'
 export NIX_ENFORCE_NO_NATIVE
 NIX_HARDENING_ENABLE='bindnow format fortify fortify3 libcxxhardeningextensive libcxxhardeningfast pic relro stackclashprotection stackprotector strictoverflow zerocallusedregs'
 export NIX_HARDENING_ENABLE
-NIX_LDFLAGS='-rpath /home/framework/godot/dodge-the-creeps-godot's-tutorial/outputs/out/lib '
+NIX_LDFLAGS='-rpath /home/framework/godot/dodge-the-creeps-godot-tutorial/outputs/out/lib '
 export NIX_LDFLAGS
 NIX_NO_SELF_RPATH='1'
 NIX_STORE='/nix/store'
@@ -68,14 +68,14 @@ OLDPWD=''
 export OLDPWD
 OPTERR='1'
 OSTYPE='linux-gnu'
-PATH='/nix/store/khlv8dihygab6hc1yf50dgyka48pmpcl-roslyn-ls-5.3.0-2.25604.5/bin:/nix/store/5hfn7q3adjwa8dh4yhhw1ip8njcbs7vs-dotnet-sdk-wrapped-10.0.101/bin:/nix/store/3vs2fr2mazafcdwyza15bfhpmccx1k7z-patchelf-0.15.2/bin:/nix/store/r9wbjib6xxjkyb9yvjvrkl4sq61i2lyn-gcc-wrapper-15.2.0/bin:/nix/store/qarrb8yfby1yyypm32vabzgxgq3w41ma-gcc-15.2.0/bin:/nix/store/7ri1mm5y99nkr7657r77wycrvhg7z9x0-glibc-2.40-66-bin/bin:/nix/store/d75200gb22v7p0703h5jrkgg8bqydk5q-coreutils-9.8/bin:/nix/store/dwiyp91lmxq864plaas14jm14m87sg3f-binutils-wrapper-2.44/bin:/nix/store/cl88v2m1y5q3k6jlkq5jjf73nmfgl1px-binutils-2.44/bin:/nix/store/d75200gb22v7p0703h5jrkgg8bqydk5q-coreutils-9.8/bin:/nix/store/wd99g2j010fdkry0ws1bhxzm52w82ssx-findutils-4.10.0/bin:/nix/store/20zvyjvxq9x2mkp7rbnvrwjjzq2n76hh-diffutils-3.12/bin:/nix/store/k06ssckzrzn9jjvvs4n62m6567zmbx6x-gnused-4.9/bin:/nix/store/qfmq7p42ak5yn389qvx7zpxkan5i4xiy-gnugrep-3.12/bin:/nix/store/nmxm04dhkaqg1q6hai70n9zmzb0q49a5-gawk-5.3.2/bin:/nix/store/k1lcfin159706lihwx5hhvl80dbij4jw-gnutar-1.35/bin:/nix/store/0hv4z5s3r1h4lmvn0427mlxjxgvg34nr-gzip-1.14/bin:/nix/store/p61ba9fdgx3358bpp18hv4rslf6n5bq6-bzip2-1.0.8-bin/bin:/nix/store/mkm3my2067305hdh7rzmi10npwr7y17f-gnumake-4.4.1/bin:/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin:/nix/store/clrf4mjwr8xcfpvway6w34wzvqc1hry4-patch-2.8/bin:/nix/store/j1zc5jh0vi9sbxj09ldj4xklgm6kpf8n-xz-5.8.1-bin/bin:/nix/store/s2k48fw3y698j4kcvmw0520m06ihv2z4-file-5.45/bin'
+PATH='/nix/store/2w7ak2s63mxwgvrlzq1sfmjdy4x8kxjv-roslyn-ls-5.3.0-2.25604.5/bin:/nix/store/yxhnc3rfgvq6vbgcf78fszirnn465csb-dotnet-sdk-wrapped-10.0.101/bin:/nix/store/8q2582rd22xp8jlcg1xn1w219q5lx5xa-patchelf-0.15.2/bin:/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin:/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/bin:/nix/store/q6wgv06q39bfhx2xl8ysc05wi6m2zdss-glibc-2.40-66-bin/bin:/nix/store/imad8dvhp77h0pjbckp6wvmnyhp8dpgg-coreutils-9.8/bin:/nix/store/xwydcyvlsa3cvssk0y5llgdhlhjvmqdm-binutils-wrapper-2.44/bin:/nix/store/dc9vaz50jg7mibk9xvqw5dqv89cxzla3-binutils-2.44/bin:/nix/store/imad8dvhp77h0pjbckp6wvmnyhp8dpgg-coreutils-9.8/bin:/nix/store/av4xw9f56xlx5pgv862wabfif6m1yc0a-findutils-4.10.0/bin:/nix/store/20axvl7mgj15m23jgmnq97hx37fgz7bk-diffutils-3.12/bin:/nix/store/drc7kang929jaza6cy9zdx10s4gw1z5p-gnused-4.9/bin:/nix/store/x3zjxxz8m4ki88axp0gn8q8m6bldybba-gnugrep-3.12/bin:/nix/store/y2wdhdcrffp9hnkzk06d178hq3g98jay-gawk-5.3.2/bin:/nix/store/yi3c5karhx764ham5rfwk7iynr8mjf6q-gnutar-1.35/bin:/nix/store/d471xb7sfbah076s8rx02i68zpxc2r5n-gzip-1.14/bin:/nix/store/qm9rxn2sc1vrz91i443rr6f0vxm0zd82-bzip2-1.0.8-bin/bin:/nix/store/3fmzbq9y4m9nk235il7scmvwn8j9zy3p-gnumake-4.4.1/bin:/nix/store/rlq03x4cwf8zn73hxaxnx0zn5q9kifls-bash-5.3p3/bin:/nix/store/qrwznp1ikdf0qw05wia2haiwi32ik5n0-patch-2.8/bin:/nix/store/v0rfdwhg6w6i0yb6dbry4srk6pnj3xp0-xz-5.8.1-bin/bin:/nix/store/paj6a1lpzp57hz1djm5bs86b7ci221r0-file-5.45/bin'
 export PATH
 PS4='+ '
 RANLIB='ranlib'
 export RANLIB
 READELF='readelf'
 export READELF
-SHELL='/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/bash'
+SHELL='/nix/store/rlq03x4cwf8zn73hxaxnx0zn5q9kifls-bash-5.3p3/bin/bash'
 export SHELL
 SIZE='size'
 export SIZE
@@ -85,7 +85,7 @@ STRINGS='strings'
 export STRINGS
 STRIP='strip'
 export STRIP
-XDG_DATA_DIRS='/nix/store/5hfn7q3adjwa8dh4yhhw1ip8njcbs7vs-dotnet-sdk-wrapped-10.0.101/share:/nix/store/3vs2fr2mazafcdwyza15bfhpmccx1k7z-patchelf-0.15.2/share'
+XDG_DATA_DIRS='/nix/store/yxhnc3rfgvq6vbgcf78fszirnn465csb-dotnet-sdk-wrapped-10.0.101/share:/nix/store/8q2582rd22xp8jlcg1xn1w219q5lx5xa-patchelf-0.15.2/share'
 export XDG_DATA_DIRS
 __structuredAttrs=''
 export __structuredAttrs
@@ -103,14 +103,14 @@ buildPhase='{ echo "------------------------------------------------------------
 } >> "$out"
 '
 export buildPhase
-builder='/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/bash'
+builder='/nix/store/rlq03x4cwf8zn73hxaxnx0zn5q9kifls-bash-5.3p3/bin/bash'
 export builder
 cmakeFlags=''
 export cmakeFlags
 configureFlags=''
 export configureFlags
 defaultBuildInputs=''
-defaultNativeBuildInputs='/nix/store/3vs2fr2mazafcdwyza15bfhpmccx1k7z-patchelf-0.15.2 /nix/store/9k7h0vvpnb8w4xcaypff4i76n1bsmwzz-update-autotools-gnu-config-scripts-hook /nix/store/0y5xmdb7qfvimjwbq7ibg1xdgkgjwqng-no-broken-symlinks.sh /nix/store/cv1d7p48379km6a85h4zp6kr86brh32q-audit-tmpdir.sh /nix/store/85clx3b0xkdf58jn161iy80y5223ilbi-compress-man-pages.sh /nix/store/p3l1a5y7nllfyrjn2krlwgcc3z0cd3fq-make-symlinks-relative.sh /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh /nix/store/cmzya9irvxzlkh7lfy6i82gbp0saxqj3-multiple-outputs.sh /nix/store/x8c40nfigps493a07sdr2pm5s9j1cdc0-patch-shebangs.sh /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh /nix/store/z7k98578dfzi6l3hsvbivzm7hfqlk0zc-set-source-date-epoch-to-latest.sh /nix/store/pilsssjjdxvdphlg2h19p0bfx5q0jzkn-strip.sh /nix/store/r9wbjib6xxjkyb9yvjvrkl4sq61i2lyn-gcc-wrapper-15.2.0'
+defaultNativeBuildInputs='/nix/store/8q2582rd22xp8jlcg1xn1w219q5lx5xa-patchelf-0.15.2 /nix/store/l2xk4ac1wx9c95kpp8vymv9r9yn57fvh-update-autotools-gnu-config-scripts-hook /nix/store/0y5xmdb7qfvimjwbq7ibg1xdgkgjwqng-no-broken-symlinks.sh /nix/store/cv1d7p48379km6a85h4zp6kr86brh32q-audit-tmpdir.sh /nix/store/85clx3b0xkdf58jn161iy80y5223ilbi-compress-man-pages.sh /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh /nix/store/cmzya9irvxzlkh7lfy6i82gbp0saxqj3-multiple-outputs.sh /nix/store/x8c40nfigps493a07sdr2pm5s9j1cdc0-patch-shebangs.sh /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh /nix/store/z7k98578dfzi6l3hsvbivzm7hfqlk0zc-set-source-date-epoch-to-latest.sh /nix/store/pilsssjjdxvdphlg2h19p0bfx5q0jzkn-strip.sh /nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0'
 depsBuildBuild=''
 export depsBuildBuild
 depsBuildBuildPropagated=''
@@ -140,14 +140,14 @@ declare -a envHostHostHooks=('addNugetInputs' 'ccWrapper_addCVars' 'bintoolsWrap
 declare -a envHostTargetHooks=('addNugetInputs' 'ccWrapper_addCVars' 'bintoolsWrapper_addLDVars' )
 declare -a envTargetTargetHooks=()
 declare -a fixupOutputHooks=('if [ -z "${dontPatchELF-}" ]; then patchELF "$prefix"; fi' 'if [[ -z "${noAuditTmpdir-}" && -e "$prefix" ]]; then auditTmpdir "$prefix"; fi' 'if [ -z "${dontGzipMan-}" ]; then compressManPages "$prefix"; fi' '_moveLib64' '_moveSbin' '_moveSystemdUserUnits' 'patchShebangsAuto' '_pruneLibtoolFiles' '_doStrip' )
-initialPath='/nix/store/d75200gb22v7p0703h5jrkgg8bqydk5q-coreutils-9.8 /nix/store/wd99g2j010fdkry0ws1bhxzm52w82ssx-findutils-4.10.0 /nix/store/20zvyjvxq9x2mkp7rbnvrwjjzq2n76hh-diffutils-3.12 /nix/store/k06ssckzrzn9jjvvs4n62m6567zmbx6x-gnused-4.9 /nix/store/qfmq7p42ak5yn389qvx7zpxkan5i4xiy-gnugrep-3.12 /nix/store/nmxm04dhkaqg1q6hai70n9zmzb0q49a5-gawk-5.3.2 /nix/store/k1lcfin159706lihwx5hhvl80dbij4jw-gnutar-1.35 /nix/store/0hv4z5s3r1h4lmvn0427mlxjxgvg34nr-gzip-1.14 /nix/store/p61ba9fdgx3358bpp18hv4rslf6n5bq6-bzip2-1.0.8-bin /nix/store/mkm3my2067305hdh7rzmi10npwr7y17f-gnumake-4.4.1 /nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3 /nix/store/clrf4mjwr8xcfpvway6w34wzvqc1hry4-patch-2.8 /nix/store/j1zc5jh0vi9sbxj09ldj4xklgm6kpf8n-xz-5.8.1-bin /nix/store/s2k48fw3y698j4kcvmw0520m06ihv2z4-file-5.45'
+initialPath='/nix/store/imad8dvhp77h0pjbckp6wvmnyhp8dpgg-coreutils-9.8 /nix/store/av4xw9f56xlx5pgv862wabfif6m1yc0a-findutils-4.10.0 /nix/store/20axvl7mgj15m23jgmnq97hx37fgz7bk-diffutils-3.12 /nix/store/drc7kang929jaza6cy9zdx10s4gw1z5p-gnused-4.9 /nix/store/x3zjxxz8m4ki88axp0gn8q8m6bldybba-gnugrep-3.12 /nix/store/y2wdhdcrffp9hnkzk06d178hq3g98jay-gawk-5.3.2 /nix/store/yi3c5karhx764ham5rfwk7iynr8mjf6q-gnutar-1.35 /nix/store/d471xb7sfbah076s8rx02i68zpxc2r5n-gzip-1.14 /nix/store/qm9rxn2sc1vrz91i443rr6f0vxm0zd82-bzip2-1.0.8-bin /nix/store/3fmzbq9y4m9nk235il7scmvwn8j9zy3p-gnumake-4.4.1 /nix/store/rlq03x4cwf8zn73hxaxnx0zn5q9kifls-bash-5.3p3 /nix/store/qrwznp1ikdf0qw05wia2haiwi32ik5n0-patch-2.8 /nix/store/v0rfdwhg6w6i0yb6dbry4srk6pnj3xp0-xz-5.8.1-bin /nix/store/paj6a1lpzp57hz1djm5bs86b7ci221r0-file-5.45'
 mesonFlags=''
 export mesonFlags
 name='CSharp-env'
 export name
-nativeBuildInputs='/nix/store/khlv8dihygab6hc1yf50dgyka48pmpcl-roslyn-ls-5.3.0-2.25604.5 /nix/store/5hfn7q3adjwa8dh4yhhw1ip8njcbs7vs-dotnet-sdk-wrapped-10.0.101'
+nativeBuildInputs='/nix/store/2w7ak2s63mxwgvrlzq1sfmjdy4x8kxjv-roslyn-ls-5.3.0-2.25604.5 /nix/store/yxhnc3rfgvq6vbgcf78fszirnn465csb-dotnet-sdk-wrapped-10.0.101'
 export nativeBuildInputs
-out='/home/framework/godot/dodge-the-creeps-godot's-tutorial/outputs/out'
+out='/home/framework/godot/dodge-the-creeps-godot-tutorial/outputs/out'
 export out
 outputBin='out'
 outputDev='out'
@@ -164,21 +164,21 @@ patches=''
 export patches
 phases='buildPhase'
 export phases
-pkg='/nix/store/r9wbjib6xxjkyb9yvjvrkl4sq61i2lyn-gcc-wrapper-15.2.0'
+pkg='/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0'
 declare -a pkgsBuildBuild=()
-declare -a pkgsBuildHost=('/nix/store/khlv8dihygab6hc1yf50dgyka48pmpcl-roslyn-ls-5.3.0-2.25604.5' '/nix/store/5hfn7q3adjwa8dh4yhhw1ip8njcbs7vs-dotnet-sdk-wrapped-10.0.101' '/nix/store/qbsd3q1izzjqcyzizwah3xkwxa34sgfn-nuget-package-hook' '/nix/store/3vs2fr2mazafcdwyza15bfhpmccx1k7z-patchelf-0.15.2' '/nix/store/9k7h0vvpnb8w4xcaypff4i76n1bsmwzz-update-autotools-gnu-config-scripts-hook' '/nix/store/0y5xmdb7qfvimjwbq7ibg1xdgkgjwqng-no-broken-symlinks.sh' '/nix/store/cv1d7p48379km6a85h4zp6kr86brh32q-audit-tmpdir.sh' '/nix/store/85clx3b0xkdf58jn161iy80y5223ilbi-compress-man-pages.sh' '/nix/store/p3l1a5y7nllfyrjn2krlwgcc3z0cd3fq-make-symlinks-relative.sh' '/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh' '/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh' '/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh' '/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh' '/nix/store/cmzya9irvxzlkh7lfy6i82gbp0saxqj3-multiple-outputs.sh' '/nix/store/x8c40nfigps493a07sdr2pm5s9j1cdc0-patch-shebangs.sh' '/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh' '/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh' '/nix/store/z7k98578dfzi6l3hsvbivzm7hfqlk0zc-set-source-date-epoch-to-latest.sh' '/nix/store/pilsssjjdxvdphlg2h19p0bfx5q0jzkn-strip.sh' '/nix/store/r9wbjib6xxjkyb9yvjvrkl4sq61i2lyn-gcc-wrapper-15.2.0' '/nix/store/dwiyp91lmxq864plaas14jm14m87sg3f-binutils-wrapper-2.44' )
+declare -a pkgsBuildHost=('/nix/store/2w7ak2s63mxwgvrlzq1sfmjdy4x8kxjv-roslyn-ls-5.3.0-2.25604.5' '/nix/store/yxhnc3rfgvq6vbgcf78fszirnn465csb-dotnet-sdk-wrapped-10.0.101' '/nix/store/lhycd71dr391hsik06p0q96nmdisvhn9-nuget-package-hook' '/nix/store/8q2582rd22xp8jlcg1xn1w219q5lx5xa-patchelf-0.15.2' '/nix/store/l2xk4ac1wx9c95kpp8vymv9r9yn57fvh-update-autotools-gnu-config-scripts-hook' '/nix/store/0y5xmdb7qfvimjwbq7ibg1xdgkgjwqng-no-broken-symlinks.sh' '/nix/store/cv1d7p48379km6a85h4zp6kr86brh32q-audit-tmpdir.sh' '/nix/store/85clx3b0xkdf58jn161iy80y5223ilbi-compress-man-pages.sh' '/nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh' '/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh' '/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh' '/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh' '/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh' '/nix/store/cmzya9irvxzlkh7lfy6i82gbp0saxqj3-multiple-outputs.sh' '/nix/store/x8c40nfigps493a07sdr2pm5s9j1cdc0-patch-shebangs.sh' '/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh' '/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh' '/nix/store/z7k98578dfzi6l3hsvbivzm7hfqlk0zc-set-source-date-epoch-to-latest.sh' '/nix/store/pilsssjjdxvdphlg2h19p0bfx5q0jzkn-strip.sh' '/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0' '/nix/store/xwydcyvlsa3cvssk0y5llgdhlhjvmqdm-binutils-wrapper-2.44' )
 declare -a pkgsBuildTarget=()
 declare -a pkgsHostHost=()
 declare -a pkgsHostTarget=()
 declare -a pkgsTargetTarget=()
-declare -a postFixupHooks=('createNugetSource' 'noBrokenSymlinksInAllOutputs' '_makeSymlinksRelative' '_multioutPropagateDev' )
+declare -a postFixupHooks=('createNugetSource' 'noBrokenSymlinksInAllOutputs' '_makeSymlinksRelativeInAllOutputs' '_multioutPropagateDev' )
 declare -a postUnpackHooks=('_updateSourceDateEpochFromSourceRoot' )
 declare -a preConfigureHooks=('_multioutConfig' )
 preConfigurePhases=' configureNuget updateAutotoolsGnuConfigScriptsPhase'
 declare -a preFixupHooks=('unpackNugetPackages' '_moveToShare' '_multioutDocs' '_multioutDevs' )
 preferLocalBuild='1'
 export preferLocalBuild
-prefix='/home/framework/godot/dodge-the-creeps-godot's-tutorial/outputs/out'
+prefix='/home/framework/godot/dodge-the-creeps-godot-tutorial/outputs/out'
 declare -a propagatedBuildDepFiles=('propagated-build-build-deps' 'propagated-native-build-inputs' 'propagated-build-target-deps' )
 propagatedBuildInputs=''
 export propagatedBuildInputs
@@ -186,11 +186,11 @@ declare -a propagatedHostDepFiles=('propagated-host-host-deps' 'propagated-build
 propagatedNativeBuildInputs=''
 export propagatedNativeBuildInputs
 declare -a propagatedTargetDepFiles=('propagated-target-target-deps' )
-shell='/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/bash'
+shell='/nix/store/rlq03x4cwf8zn73hxaxnx0zn5q9kifls-bash-5.3p3/bin/bash'
 export shell
 shellHook=''
 export shellHook
-stdenv='/nix/store/n1k7lm072r5k3g6v6wb91d2q4sxcxddm-stdenv-linux'
+stdenv='/nix/store/s3w5m3spa1g71hx0yb82lvk6394j3w5j-stdenv-linux'
 export stdenv
 strictDeps=''
 export strictDeps
@@ -337,8 +337,8 @@ _createNugetSourceInOutput ()
         fi;
         mkdir -p "$dir";
         cp "${nuspec[0]}" "$dir/$id.nuspec";
-        ( cd "$package" && /nix/store/3qawigg08zkzrw59aiwdw78h1c18hlzm-zip-3.0/bin/zip -rq0 "$nupkg" "$content" );
-        /nix/store/rm8bk02yv2cagm2k7igsq48aq2nnw2rn-perl5.42.0-strip-nondeterminism-1.14.1/bin/strip-nondeterminism --type zip "$nupkg";
+        ( cd "$package" && /nix/store/lp7nvhk6jhhi2xyw50jlzk5r2rs9nj81-zip-3.0/bin/zip -rq0 "$nupkg" "$content" );
+        /nix/store/3ibydc4wwgzbjcfphz1zsh29bf9573fb-perl5.40.0-strip-nondeterminism-1.14.1/bin/strip-nondeterminism --type zip "$nupkg";
         touch "$nupkg".sha512;
     done )
 }
@@ -458,29 +458,30 @@ _logHook ()
 _makeSymlinksRelative ()
 {
  
-    local prefixes;
-    prefixes=();
+    local symlinkTarget;
+    if [ "${dontRewriteSymlinks-}" ] || [ ! -e "$prefix" ]; then
+        return;
+    fi;
+    while IFS= read -r -d '' f; do
+        symlinkTarget=$(readlink "$f");
+        if [[ "$symlinkTarget"/ != "$prefix"/* ]]; then
+            continue;
+        fi;
+        if [ ! -e "$symlinkTarget" ]; then
+            echo "the symlink $f is broken, it points to $symlinkTarget (which is missing)";
+        fi;
+        echo "rewriting symlink $f to be relative to $prefix";
+        ln -snrf "$symlinkTarget" "$f";
+    done < <(find $prefix -type l -print0)
+}
+_makeSymlinksRelativeInAllOutputs ()
+{
+ 
+    local output;
     for output in $(getAllOutputNames);
     do
-        [ ! -e "${!output}" ] && continue;
-        prefixes+=("${!output}");
-    done;
-    find "${prefixes[@]}" -type l -printf '%H\0%p\0' | xargs -0 -n2 -r -P "$NIX_BUILD_CORES" sh -c '
-      output="$1"
-      link="$2"
-
-      linkTarget=$(readlink "$link")
-
-      # only touch links that point inside the same output tree
-      [[ $linkTarget == "$output"/* ]] || exit 0
-
-      if [ ! -e "$linkTarget" ]; then
-        echo "the symlink $link is broken, it points to $linkTarget (which is missing)"
-      fi
-
-      echo "making symlink relative: $link"
-      ln -snrf "$linkTarget" "$link"
-    ' _
+        prefix="${!output}" _makeSymlinksRelative;
+    done
 }
 _moveLib64 ()
 {
@@ -713,7 +714,7 @@ _unpackNugetPackagesInOutput ()
     for nupkg in "$prefix"/share/nuget/source/**/*.nupkg;
     do
         unpackNupkg "$nupkg" "$unpacked";
-        /nix/store/qbr6b7xzcq42482f43l3q6w3scqp2rzw-xmlstarlet-1.6.1/bin/xmlstarlet sel -t -m /_:package/_:metadata -v _:id -nl -v _:version -nl "$unpacked"/*.nuspec | ( read id;
+        /nix/store/2xw0zddy13c3ilgzj1bn6mvacqj3i9sr-xmlstarlet-1.6.1/bin/xmlstarlet sel -t -m /_:package/_:metadata -v _:id -nl -v _:version -nl "$unpacked"/*.nuspec | ( read id;
         read version;
         id=''${id,,};
         version=''${version,,};
@@ -1054,8 +1055,8 @@ configureNuget ()
         for x in "${!_nugetInputs[@]}";
         do
             if [[ -d $x/share/nuget/source ]]; then
-                /nix/store/ddlxl7m20v4r1895gar03afjif68wa2l-lndir-1.0.5/bin/lndir -silent "$x/share/nuget/packages" "${NUGET_PACKAGES%/}";
-                /nix/store/ddlxl7m20v4r1895gar03afjif68wa2l-lndir-1.0.5/bin/lndir -silent "$x/share/nuget/source" "${NUGET_PACKAGES%/}";
+                /nix/store/6xgfl97mg6mpzaqf3z61a76c8savhg45-lndir-1.0.5/bin/lndir -silent "$x/share/nuget/packages" "${NUGET_PACKAGES%/}";
+                /nix/store/6xgfl97mg6mpzaqf3z61a76c8savhg45-lndir-1.0.5/bin/lndir -silent "$x/share/nuget/source" "${NUGET_PACKAGES%/}";
             fi;
         done;
     else
@@ -1077,7 +1078,7 @@ configureNuget ()
     ( shopt -s nullglob;
     local -a xmlConfigArgs=() xmlRootConfigArgs=();
     local -ra xmlSourceConfigArgs=(-s /configuration -t elem -n packageSources -d '/configuration/packageSources[position() != 1]' -s /configuration/packageSources -t elem -n __new -i /configuration/packageSources/__new -t attr -n key -v _nix -i /configuration/packageSources/__new -t attr -n value -v "$nugetSource" -r /configuration/packageSources/__new -v add);
-    if [[ -n ${keepNugetConfig-} ]] && ! /nix/store/qbr6b7xzcq42482f43l3q6w3scqp2rzw-xmlstarlet-1.6.1/bin/xmlstarlet select -t -i "/configuration/packageSources/clear" -nl "$rootConfig" && ! /nix/store/qbr6b7xzcq42482f43l3q6w3scqp2rzw-xmlstarlet-1.6.1/bin/xmlstarlet select -t -i "/configuration/packageSources/add[@value='https://api.nuget.org/v3/index.json' or @key='nuget.org']" -nl "$rootConfig"; then
+    if [[ -n ${keepNugetConfig-} ]] && ! /nix/store/2xw0zddy13c3ilgzj1bn6mvacqj3i9sr-xmlstarlet-1.6.1/bin/xmlstarlet select -t -i "/configuration/packageSources/clear" -nl "$rootConfig" && ! /nix/store/2xw0zddy13c3ilgzj1bn6mvacqj3i9sr-xmlstarlet-1.6.1/bin/xmlstarlet select -t -i "/configuration/packageSources/add[@value='https://api.nuget.org/v3/index.json' or @key='nuget.org']" -nl "$rootConfig"; then
         dotnet nuget add source https://api.nuget.org/v3/index.json --name nuget.org --configfile "$rootConfig";
     fi;
     if [[ -z ${keepNugetConfig-} ]]; then
@@ -1109,7 +1110,7 @@ configureNuget ()
         local dir isRoot=;
         dir=$(dirname "$config");
         [[ $dir != . ]] || isRoot=1;
-        /nix/store/qbr6b7xzcq42482f43l3q6w3scqp2rzw-xmlstarlet-1.6.1/bin/xmlstarlet ed --inplace "${xmlConfigArgs[@]}" ${isRoot:+"${xmlRootConfigArgs[@]}"} "$config";
+        /nix/store/2xw0zddy13c3ilgzj1bn6mvacqj3i9sr-xmlstarlet-1.6.1/bin/xmlstarlet ed --inplace "${xmlConfigArgs[@]}" ${isRoot:+"${xmlRootConfigArgs[@]}"} "$config";
     done );
     runHook postConfigureNuGet
 }
@@ -1177,13 +1178,6 @@ createNugetSource ()
     do
         prefix="${!output}" _createNugetSourceInOutput;
     done
-}
-definePhases ()
-{
- 
-    if [ -z "${phases[*]:-}" ]; then
-        phases="${prePhases[*]:-} unpackPhase patchPhase ${preConfigurePhases[*]:-}             configurePhase ${preBuildPhases[*]:-} buildPhase checkPhase             ${preInstallPhases[*]:-} installPhase ${preFixupPhases[*]:-} fixupPhase installCheckPhase             ${preDistPhases[*]:-} distPhase ${postPhases[*]:-}";
-    fi
 }
 distPhase ()
 {
@@ -1369,7 +1363,9 @@ genericBuild ()
         eval "$buildCommand";
         return;
     fi;
-    definePhases;
+    if [ -z "${phases[*]:-}" ]; then
+        phases="${prePhases[*]:-} unpackPhase patchPhase ${preConfigurePhases[*]:-}             configurePhase ${preBuildPhases[*]:-} buildPhase checkPhase             ${preInstallPhases[*]:-} installPhase ${preFixupPhases[*]:-} fixupPhase installCheckPhase             ${preDistPhases[*]:-} distPhase ${postPhases[*]:-}";
+    fi;
     for curPhase in ${phases[*]};
     do
         runPhase "$curPhase";
@@ -1900,16 +1896,6 @@ printLines ()
     (( "$#" > 0 )) || return 0;
     printf '%s\n' "$@"
 }
-printPhases ()
-{
- 
-    definePhases;
-    local phase;
-    for phase in ${phases[*]};
-    do
-        printf '%s\n' "$phase";
-    done
-}
 printWords ()
 {
  
@@ -2230,7 +2216,7 @@ unpackNupkg ()
     local -r nupkg="$1" unpacked="$2";
     local nuspec nuspec_l;
     mkdir -p "$unpacked";
-    /nix/store/0jsv20rn7626s2k0mf8ri7y945aswr55-unzip-6.0/bin/unzip -nqd "$unpacked" "$nupkg";
+    /nix/store/h7fgzg0gkpar781i0vj423sq8zyr24a5-unzip-6.0/bin/unzip -nqd "$unpacked" "$nupkg";
     cd "$unpacked";
     chmod -R +rw .;
     nuspec=(*.nuspec);
@@ -2311,7 +2297,7 @@ updateAutotoolsGnuConfigScriptsPhase ()
         for f in $(find . -type f -name "$script");
         do
             echo "Updating Autotools / GNU config script to a newer upstream version: $f";
-            cp -f "/nix/store/axmfg44mziw9bngfj937li7c7l39x6w1-gnu-config-2024-01-01/$script" "$f";
+            cp -f "/nix/store/1kzclixw4c13wxin0b6cij1zykvwp0wb-gnu-config-2024-01-01/$script" "$f";
         done;
     done
 }
