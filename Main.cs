@@ -3,6 +3,28 @@ using System;
 
 public partial class Main : Node
 {
+    [Export]
+    public PackedScene MobScene;
+
+    private int _score;
+
+    public void GameOver()
+    {
+        GetNode<Timer>("MobTimer").Stop();
+        GetNode<Timer>("ScoreTimer").Stop();
+    }
+
+    public void NewGame()
+    {
+        _score = 0;
+
+        var player = GetNode<Player>("Player");
+        var startPosition = GetNode<Marker2D>("StartPosition");
+        player.Start(startPosition.Position);
+
+        GetNode<Timer>("StartTimer").Start();
+    }
+
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
