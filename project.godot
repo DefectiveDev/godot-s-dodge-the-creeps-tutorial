@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Dodge the Creeps Godot's Tutorial"
-run/main_scene="uid://jd2tkvcj2646"
+run/main_scene="uid://gcpvg4svqbmg"
 config/features=PackedStringArray("4.5", "C#", "Forward Plus")
 config/icon="res://icon.svg"
 
