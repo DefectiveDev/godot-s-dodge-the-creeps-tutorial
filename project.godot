@@ -11,10 +11,10 @@ config_version=5
 [application]
 
 config/name="Dodge the Creeps Godot's Tutorial"
+config/tags=PackedStringArray("finished")
 run/main_scene="uid://gcpvg4svqbmg"
 config/features=PackedStringArray("4.5", "C#", "Forward Plus")
 config/icon="res://icon.svg"
-config/tags=PackedStringArray("finished")
 
 [display]
 
