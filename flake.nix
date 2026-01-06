@@ -17,7 +17,7 @@
             packages = with pkgs; [
                 roslyn-ls
                 dotnet-sdk_10
-                godot
+                godot-mono
             ];
         };
 
